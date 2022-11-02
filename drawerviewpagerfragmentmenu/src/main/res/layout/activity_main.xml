@@ -34,20 +34,14 @@
             android:backgroundTint="@color/purple_200"/>
 
     </LinearLayout>
-   <TextView
-       android:id="@+id/tvMenu"
-       android:layout_width="wrap_content"
-       android:layout_height="match_parent"
-       android:text="android web aap"
-       android:background="@color/white"
-       android:textColor="@color/black"
-       android:textStyle="bold"
-       android:textSize="30dp"
-       android:gravity="center"
-       android:layout_gravity ="start">
 
-   </TextView>
-
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/navi_header"
+        app:menu="@menu/navi_menu"/>
 
 
 </androidx.drawerlayout.widget.DrawerLayout>
