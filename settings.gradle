@@ -16,3 +16,4 @@ rootProject.name = "viewpager2_fragment"
 include ':app'
 include ':drawrlayout'
 include ':drawerlayout_viewpager2'
+include ':drawerviewpagerfragmentmenu'
