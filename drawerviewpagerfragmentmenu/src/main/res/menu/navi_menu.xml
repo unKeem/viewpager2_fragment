@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="timetable"
+        android:id="@+id/item_info"
+        android:icon="@drawable/ic_drawer_menu"/>
+
+    <item android:title="information"
+        android:id="@+id/item_report"
+        android:icon="@drawable/ic_drawer_menu"/>
+
+    <item android:title="reservation check"
+        android:id="@+id/item_add"
+        android:icon="@drawable/ic_drawer_menu"/>
+
+
+</menu>
