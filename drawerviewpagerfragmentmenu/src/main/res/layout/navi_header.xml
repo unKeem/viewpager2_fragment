@@ -10,7 +10,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_gravity="center"
-        app:srcCompat="@drawable/poster" />
+        app:srcCompat="@drawable/diary" />
 
     <TextView
         android:id="@+id/textView"
@@ -21,7 +21,7 @@
         android:textStyle="bold"
         android:textColor="#590F0F"
         android:layout_marginTop="10dp"
-        android:text="귀토" />
+        android:text="Text" />
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
@@ -29,5 +29,5 @@
         android:gravity="center"
         android:textSize="20dp"
         android:layout_marginTop="10dp"
-        android:text="국립창극단" />
+        android:text="text" />
 </LinearLayout>

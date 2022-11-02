@@ -35,7 +35,7 @@ class Decoration(val context: Context) : RecyclerView.ItemDecoration() {
         }else{
             outRect.set(10,10,10,0)
         }
-        view.setBackgroundColor(Color.parseColor("#FFBB86FC"))
+        view.setBackgroundColor(Color.parseColor("#FFE1BF5A"))
         ViewCompat.setElevation(view, 20.0f)
     }
 }
