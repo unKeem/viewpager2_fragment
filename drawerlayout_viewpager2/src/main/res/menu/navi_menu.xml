@@ -2,17 +2,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <item android:title="timetable"
+    <item android:title="공연스케쥴"
         android:id="@+id/item_info"
         android:icon="@drawable/ic_drawer_menu"/>
 
-    <item android:title="information"
+    <item android:title="공연정보"
         android:id="@+id/item_report"
         android:icon="@drawable/ic_drawer_menu"/>
 
-    <item android:title="reservation check"
+    <item android:title="예약확인"
         android:id="@+id/item_add"
         android:icon="@drawable/ic_drawer_menu"/>
-
 
 </menu>

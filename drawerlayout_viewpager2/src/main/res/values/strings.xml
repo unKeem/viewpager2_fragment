@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PERFORMANCE RESERVATION</string>
+    <string name="app_name">국립극단 공연예매</string>
     <string name="drawer_open">openDrawer</string>
     <string name="drawer_close">closeDrawer</string>
 </resources>
