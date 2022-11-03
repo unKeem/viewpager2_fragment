@@ -15,14 +15,14 @@ class Decoration(val context: Context) : RecyclerView.ItemDecoration() {
         super.onDrawOver(canvas, parent, state)
         val width = parent.width
         val height = parent.height
-        val kboDrawable = ResourcesCompat.getDrawable(context.resources, R.drawable.kbo, null)
-        val kboWidth = kboDrawable?.intrinsicWidth
-        val kboHeight = kboDrawable?.intrinsicHeight
-        val left = width / 2 - kboWidth?.div(2) as Int
-        val top = height / 2 - kboHeight?.div(2) as Int
+        val overlapDrawable = ResourcesCompat.getDrawable(context.resources, R.drawable.ic_opacity_image, null)
+        val overLapWidth = overlapDrawable?.intrinsicWidth
+        val overlapHeight = overlapDrawable?.intrinsicHeight
+        val left = width / 2 - overLapWidth?.div(2) as Int
+        val top = height / 2 - overlapHeight?.div(2) as Int
 
         canvas.drawBitmap(
-            BitmapFactory.decodeResource(context.resources, R.drawable.kbo),
+            BitmapFactory.decodeResource(context.resources, R.drawable.ic_opacity_image),
             left.toFloat(), top.toFloat(), null
         )
     }
